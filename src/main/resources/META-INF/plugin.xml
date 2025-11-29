@@ -11,5 +11,21 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.jellynugget.laravellastmigration.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.jellynugget.laravellastmigration.startup.MyProjectActivity" />
+        <projectConfigurable
+                id="com.github.jellynugget.laravellastmigration.settings"
+                displayName="Laravel Last Migration"
+                instance="com.github.jellynugget.laravellastmigration.settings.MigrationSettingsConfigurable"/>
     </extensions>
+
+    <actions>
+        <action id="laravel.last.migration.by.name"
+                class="com.github.jellynugget.laravellastmigration.actions.GotoLastMigrationByNameAction"
+                text="Go to Last Laravel Migration"
+                description="Open the last Laravel migration in database/migrations based on filename order"/>
+
+        <action id="laravel.last.migration.by.date"
+                class="com.github.jellynugget.laravellastmigration.actions.GotoLastMigrationByDateAction"
+                text="Go to Last Laravel Migration (By Date)"
+                description="Open the last Laravel migration in database/migrations based on modified date"/>
+    </actions>
 </idea-plugin>

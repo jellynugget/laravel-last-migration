@@ -2,6 +2,6 @@
 
 # laravel-last-migration Changelog
 
-## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+## [0.0.1]
+- Added "Go to Last Migration" command to navigate to the last migration file (by name) in Laravel projects.
+- Added "Go to Last Migration (By Date)"  command to navigate to the most recently updated migration file in Laravel projects.
