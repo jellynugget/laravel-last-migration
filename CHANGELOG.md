@@ -2,6 +2,10 @@
 
 # laravel-last-migration Changelog
 
+## [0.0.2]
+- Update target build version
+
+
 ## [0.0.1]
 
 - Actions > Go to Last Migration
