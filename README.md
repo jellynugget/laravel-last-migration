@@ -1,11 +1,14 @@
 # laravel-last-migration
 
 ![Build](https://github.com/jellynugget/laravel-last-migration/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/29188)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/29188)
+[![Version](https://img.shields.io/jetbrains/plugin/v/29188.svg)](https://plugins.jetbrains.com/plugin/29188)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/29188.svg)](https://plugins.jetbrains.com/plugin/29188)
 
 <!-- Plugin description -->
-Action to go to the last migration file in a Laravel project.
+
+- Actions > Go To Last Migration : based on file name
+- Actions > Go To Last Migration (By Date) : based on file last modified date
+
 <!-- Plugin description end -->
 
 ## Installation
@@ -17,7 +20,7 @@ Action to go to the last migration file in a Laravel project.
 
 - Using JetBrains Marketplace:
 
-  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
+  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/29188) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
 
   You can also download the [latest release](https://plugins.jetbrains.com/plugin/29188/versions) from JetBrains Marketplace and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
